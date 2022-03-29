@@ -10,7 +10,6 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(
 
 //datefield.innerHTML = `<em>${fulldate}</em>`;
 
-
 //last modification
 document.querySelector(
 	"#lastModified"
