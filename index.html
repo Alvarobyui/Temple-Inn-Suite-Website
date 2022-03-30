@@ -10,20 +10,23 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-   
-    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
 </head>
 
 <body>
     <header class="top-grid">
-        <a href="index.html"><img src="#" alt="Logo"></a>
         <nav class="nav-links">
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <a href="index.html"><img class="logo" src="img/Temple Inn Suites Logo - White with Black Background - 5000x5000.png" alt="Logo"></a>
             <ul id="primaryNav">
-              <li><a href="temples.html" >Find Temples</a></li>
+              <li><a class="active" href="temples.html" >Find Temples</a></li>
               <li><a href="reserve.html" >Reserve</a></li>
               <li><a href="join.html" >Services</a></li>
             </ul>
+            <label id="iconBtn">
+                <i class="material-icons">menu</i>
+            </label>
         </nav>
     </header>
     <main class="call-to-action">
@@ -75,10 +78,21 @@
             </picture>
         </div>
     </div>
+    <div class="full-time-service-banner">
+        <div class="full-time-service-cnt">
+            <h2>Are you a Full-time Temple Missionary?</h2>
+            <p>Enjoy our long-term stay accommodations in kitchenette suites for full-time temple missionaries</p>
+            <button>Explore</button>    
+        </div>
+        <div class="full-time-service-item">
+            <picture class="lazy-image">
+                <img src="kitchenette.jpg" alt="kitchenette">
+            </picture>
+        </div>
+    </div>
 
     <footer class="footer-grid">
-        <div>Temple Inn & Suites</div>
-        <img src="#" alt="Logo">
+        <img class="logo" src="img/Temple Inn Suites Logo - Original - 5000x5000.png" alt="Logo">
         <div class="contacts">alvaro.m.diaz@gmail.com<br>
             +51 924126535</div>
         <div>4840 Montgomery Ln #320, Bethesda, MD 20814</div>
@@ -92,6 +106,7 @@
         <div>&copy;<span id="onlyYear"></span> Temple Inn & Suites | Alvaro M. Diaz | <div id="lastModified"></div></div>
     </footer>
     <script src="js/date.js"></script>
+    <script src="js/navBar.js"></script>
 </body>
 
 </html>
