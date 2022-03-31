@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Signika+Negative:wght@500&display=swap');
+
 
 /* Color Palette
 Primary Color: #EB5E28 (orange);
@@ -9,7 +11,21 @@ Auxiliary Color: #FFFCF2
 body > *{
     border: 5px solid black;
 }
+div, p {
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Signika Negative', sans-serif;
+}
 
+/*Footer*/
+footer{
+    background: black;
+    color: #CCC5B9;
+}
+
+
+/*Logo brand*/
 .logo {
     max-width: 50%;
     max-height: 70px;
