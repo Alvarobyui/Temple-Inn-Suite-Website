@@ -129,3 +129,61 @@ nav #iconBtn {
         left: 0;
     }
 }
+
+/*Social Icons*/
+.social-media-icons ul > *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-media-icons {
+    display: flex;
+    height: 20vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.social-media-icons ul {
+    display: flex;
+}
+
+.social-media-icons ul li{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 30px;
+    height: 60px;  
+    width: 60px;
+    background: #403D39;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+.social-media-icons ul li:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: #EB5E28;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+.social-media-icons ul li:hover:before{
+    filter: blur(3px);
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #EB5E28;
+}
+
+.social-media-icons ul li:hover{
+    color:#EB5E28;
+    box-shadow: 0 0 15px #EB5E28;
+    text-shadow: 0 0 15px #EB5E28;
+}
