@@ -1,4 +1,5 @@
 @media only screen and (min-width: 40em) {
+    /*Footer*/
     .footer-grid {
         display: flex;
         flex-direction: column;
@@ -6,7 +7,7 @@
         text-align: center;
     }
     
-    
+    /*Social media icons*/
     .social-media-icons {
         height: 90px;
     }
@@ -38,5 +39,7 @@
     .follow {
         display: block;
         text-align: left;
-    }    
+    }   
+    
+    
 }
