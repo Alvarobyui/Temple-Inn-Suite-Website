@@ -11,19 +11,6 @@
     .social-media-icons {
         height: 90px;
     }
-    .social-media-icons ul li:before{
-        position: absolute;
-        content: '';
-        top: 0;
-        left: 0;
-        background: #FFFCF2;
-        height: 100%;
-        width: 100%;
-        border-radius: 50%;
-        z-index: -1;
-        transform: scale(0.9);
-        transition: .5s;
-    }
     
     .social-media-icons ul li:hover:before{
         filter: blur(3px);
