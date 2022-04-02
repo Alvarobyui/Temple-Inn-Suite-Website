@@ -22,14 +22,19 @@ h1, h2, h3, h4, h5 {
 footer{
     background: black;
     color: #CCC5B9;
+    font-size: 12px;
+    padding: 15px;
 }
-
+.footer-grid > *{
+    padding: 5vh 0 0;
+    /*border-top: 1px solid #CCC5B9;*/
+}
 
 /*Logo brand*/
 .logo {
-    max-width: 50%;
+    max-width: 94%;
     max-height: 70px;
-    padding: 0 10px;
+    padding: 5px 0;
     /*padding-left: 100px;*/
 }
 
@@ -138,7 +143,6 @@ nav #iconBtn {
 }
 
 .social-media-icons {
-    
     height: 60px;
     text-align: center;
     align-items: left;
@@ -164,6 +168,10 @@ nav #iconBtn {
     transition: .5s;
 }
 
+.social-media-icons ul li a{
+    text-decoration: none;
+    list-style: none;
+}
 /* visited link */
 footer a:visited {
     color: white;
@@ -171,3 +179,4 @@ footer a:visited {
 .follow {
     display: none;
 }
+
