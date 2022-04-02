@@ -1,3 +1,34 @@
-@media only screen and (max-width: 909px) {
-
+@media only screen and (min-width: 40em) {
+    .social-media-icons {
+        height: 90px;
+    }
+    .social-media-icons ul li:before{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        background: blue;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        z-index: -1;
+        transform: scale(0.9);
+        transition: .5s;
+    }
+    
+    .social-media-icons ul li:hover:before{
+        filter: blur(3px);
+        transform: scale(1.2);
+        box-shadow: 0 0 15px #EB5E28;
+    }
+    
+    .social-media-icons ul li:hover{
+        color:#EB5E28;
+        box-shadow: 0 0 15px #EB5E28;
+        text-shadow: 0 0 15px #EB5E28;
+    }
+    .follow {
+        display: block;
+        text-align: left;
+    }    
 }
