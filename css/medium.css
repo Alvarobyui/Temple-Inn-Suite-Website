@@ -23,6 +23,9 @@
         box-shadow: 0 0 15px #EB5E28;
         text-shadow: 0 0 15px #EB5E28;
     }
+    .social-media-icons ul li a:before{
+        color: #FFFCF2;
+    }
     .follow {
         display: block;
         text-align: left;
