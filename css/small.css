@@ -192,3 +192,7 @@ footer a:visited {
 .follow {
     display: none;
 }
+
+.social-media-icons ul li a:before{
+    color: #FFFCF2;
+}
