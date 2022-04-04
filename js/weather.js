@@ -39,5 +39,5 @@ setInterval(() => {
 
   timeEl.innerHTML = hours12Format + ':' + minutes + `<span id="am-pm">${amOrpm}</span>`
 
-  dateEl.innerHTML = 
+  //dateEl.innerHTML = 
 }, 1000);
