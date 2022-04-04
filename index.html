@@ -55,18 +55,74 @@
         </div>
     </div>
     <div class="weather">
-        <div class="weather-cnt">
-            <h2 class="name">Weather</h2>
-            <p><span class="temp"></span> &#8451;</p>
-            <p><span class="des"></span></p>
-            <p><span class="hum"></span> %</p>
+        <div class="weather-container">
+            <div class="current-info">
+                <div class="date-container">
+                    <div id="time" class="time">
+                        12:30 <span id="am-pm">PM</span>
+                    </div>
+                    <div id="date" class="date">
+                        Monday, 24 May
+                    </div>
+
+                    <div class="others" id="current-weather-items">
+                        <div class="weather-item">
+                            <div>Temperature</div>
+                            <div>20 C°</div>
+                        </div>
+                        <div class="weather-item">
+                            <div>Condition</div>
+                            <div>Drizzing</div>
+                        </div>
+                        <div class="weather-item">
+                            <div>Humidity</div>
+                            <div>95.5%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="place-container">
+                    <div class="time-zone" id="time-zone">(GMT-5)</div>
+                    <div id="country" class="country">Perú</div>
+                </div>
+            </div>
         </div>
-        <div class="weather-item">
-            <picture class="lazy-image">
-                <img src="weather.jpg" alt="weather">
-            </picture>
+        <div class="future-forecast">
+            <div class="today" id="current-temp">
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+                <div class="first-card">
+                    <div class="day">Monday</div>
+                    <div class="temp">Night - 25&#176; C</div>
+                    <div class="temp">Day - 24&#176; C</div>     
+                </div>
+            </div>
+            <div class="weather-forecast" id="weather-forecast">
+                <div class="weather-forecast-item">
+                    <div class="day">Monday</div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+                    <div class="temp">Night - 25&#176; C</div>
+                    <div class="temp">Day - 24&#176; C</div>    
+                </div>
+                <div class="weather-forecast-item">
+                    <div class="day">Tue</div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+                    <div class="temp">Night - 25&#176; C</div>
+                    <div class="temp">Day - 24&#176; C</div>    
+                </div>
+                <div class="weather-forecast-item">
+                    <div class="day">Wed</div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+                    <div class="temp">Night - 25&#176; C</div>
+                    <div class="temp">Day - 24&#176; C</div>    
+                </div>
+                <div class="weather-forecast-item">
+                    <div class="day">Thu</div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
+                    <div class="temp">Night - 25&#176; C</div>
+                    <div class="temp">Day - 24&#176; C</div>    
+                </div>
+            </div>
         </div>
-        <div class="forecast">I do not know how to do this yet</div>
     </div>
     <div class="babysitting">
         <div class="babysitting-cnt">

@@ -23,13 +23,67 @@
         box-shadow: 0 0 15px #EB5E28;
         text-shadow: 0 0 15px #EB5E28;
     }
-    .social-media-icons ul li a:before{
-        color: #FFFCF2;
-    }
+    
     .follow {
         display: block;
         text-align: left;
     }   
     
+    /*Weather*/
+    .weather-container > * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .weather-container {
+        padding: 20px;
+    }
+
+    .future-forecast .weather-forecast {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .future-forecast {
+        align-items: center;
+        justify-content: center;
+        overflow-y: hidden;
+    }
+
+    .future-forecast .today .temp {
+        font-size: 5vh;
+    }
+    .date-container #am-pm {
+        font-size: 35px;
+        margin-left: 10px;
+    }
+
+    .date-container .date {
+        font-size: 25px;
+    }
+
+    .date-container .time{
+        font-size: 50px;
+    }
+    .place-container {
+        margin-top: 0;
+    }
+    .place-container .time-zone {
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .place-container .country {
+        font-size: 15px;
+    }
+    .current-info .others {
+        padding: 20px;
+    }
+    .current-info .date-container .others .weather-item {
+        font-size: 16px;
+    }
     
+    .future-forecast .today .temp {
+        font-size: 23px;
+        padding-top: 15px;
+    }
 }

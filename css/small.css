@@ -4,12 +4,13 @@
 /* Color Palette
 Primary Color: #EB5E28 (orange);
 Font Color: #403D39 / #252422
-Background Color: #CCC5B9 (almost white)
-Auxiliary Color: #FFFCF2
+Background Color: #CCC5B9 (crema)
+Auxiliary Color: #FFFCF2 (almost white)
 */
 
 body > *{
-    border: 5px solid black;
+   padding: 0;
+   margin: 0;
 }
 div, p {
     font-family: 'Lato', sans-serif;
@@ -195,4 +196,128 @@ footer a:visited {
 
 .social-media-icons ul li a:before{
     color: #FFFCF2;
+}
+
+
+/*Weather and forecast*/
+.weather-container > * {
+    box-sizing: border-box;
+    margin: 0;
+}
+.weather-container {
+    padding: 10px;
+}
+
+.weather-container {
+    background-image: url('https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJhY2tncm91bmR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 45vh;
+
+    padding: 10px 15px;
+    color: #FFFCF2;
+}
+.current-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.date-container {
+    font-weight: 100;
+}
+.date-container .time{
+    font-size: 45px;
+}
+.date-container #am-pm {
+    font-size: 20px;
+    margin-left: 0;
+}
+
+.date-container .date {
+    font-size: 20px;
+}
+.place-container {
+    text-align: end;
+    margin-top: 15px;
+}
+
+.place-container .time-zone {
+    font-size: 10px;
+    /*font-weight: 100;*/
+}
+.place-container .country {
+    font-size: 7px;
+    font-weight: 700;
+}
+
+.current-info .others {
+    display: flex;
+    flex-direction: column;
+    background: rgba(24,24,27, 0.6);
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #FFFCF2;
+}
+
+.current-info .date-container .others .weather-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.future-forecast {
+    background: rgba(24,24,27, 0.7);
+    padding: 0;
+    bottom: 0;
+    display: flex;
+    color: #FFFCF2;
+    width: 100%;
+    height: 200px;
+    align-items: none;
+    justify-content: start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+.future-forecast .today {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.future-forecast .today .day {
+    padding: 5px 15px;
+    background: #403D39;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.future-forecast .today .temp {
+    font-size: 12px;
+    padding-top: 10px;
+}
+.future-forecast .weather-forecast {
+    display: flex;
+}
+
+.weather-forecast .weather-forecast-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 10px;
+    border: 1px solid #FFFCF2;
+    border-radius: 10px;
+}
+.weather-forecast .weather-forecast-item .day {
+    padding: 5px 15px;
+    background: #403D39;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.weather-forecast .weather-forecast-item .temp {
+    font-weight: 100;
 }

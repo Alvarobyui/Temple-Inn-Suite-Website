@@ -8,7 +8,7 @@ fetch(apiURL)
 
 function displayWeather(jsObject) {
     celsiusTemp = jsObject.main.temp - 273.15;
-    document.querySelector('.temp').textContent = celsiusTemp.toFixed(2);
+    //document.querySelector('.temp').textContent = celsiusTemp.toFixed(1);
     document.querySelector('.des').textContent = jsObject['weather']['0']['description'];
     document.querySelector('.hum').textContent = jsObject.main.humidity;
     //document.querySelector('#windSpeed').textContent = jsObject.main.temp;
