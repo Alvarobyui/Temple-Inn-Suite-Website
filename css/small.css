@@ -213,7 +213,7 @@ footer a:visited {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    height: 45vh;
+    height: 30vh;
 
     padding: 10px 15px;
     color: #FFFCF2;
@@ -300,6 +300,7 @@ footer a:visited {
 }
 .future-forecast .weather-forecast {
     display: flex;
+    font-size: 12px;
 }
 
 .weather-forecast .weather-forecast-item {

@@ -37,6 +37,7 @@
     }
     .weather-container {
         padding: 20px;
+        height: 40vh;
     }
 
     .future-forecast .weather-forecast {
@@ -83,7 +84,11 @@
     }
     
     .future-forecast .today .temp {
-        font-size: 23px;
+        font-size: 15px;
         padding-top: 15px;
+    }
+    .future-forecast .weather-forecast {
+        display: flex;
+        font-size: 13px;
     }
 }

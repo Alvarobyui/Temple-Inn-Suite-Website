@@ -1,3 +1,23 @@
 @media only screen and (min-width: 55em) {
-    
+    /*Weather and forecast*/
+    .current-info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .weather-container {
+        padding: 20px 150px;
+        height: 40vh;
+    }
+    .weather-container {
+        height: 40vh;
+    }
+    .future-forecast .today .temp {
+        font-size: 17px;
+        padding-top: 15px;
+    }
+    .future-forecast .weather-forecast {
+        display: flex;
+        font-size: 15px;
+    }
 }
