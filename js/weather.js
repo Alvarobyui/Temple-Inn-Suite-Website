@@ -15,3 +15,29 @@ function displayWeather(jsObject) {
     //document.querySelector('.des').textContent = jsObject.main.feels_like;
 
 }
+
+const timeEl = document.getElementById("time");
+const dateEl = document.getElementById("date");
+const currentWeatherEl = document.getElementById("current-weather-items");
+const timeZone = document.getElementById("time-zone");
+const countryEl = document.getElementById("country");
+const weatherForecastEl = document.getElementById("weather-forecast");
+const currentTempEl = document.getElementById("current-temp");
+
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+setInterval(() => {
+  const time = new Date();
+  const month = time.getMonth();
+  const date = time.getDate();
+  const day = time.getDay();
+  const hour = time.getHours();
+  const hours12Format = hour >= 12 ? hour %12: hour
+  const minutes = time.getMinutes();
+  const amOrpm = hour >= 12 ? "PM" : "Am"
+
+  timeEl.innerHTML = hours12Format + ':' + minutes + `<span id="am-pm">${amOrpm}</span>`
+
+  dateEl.innerHTML = 
+}, 1000);
