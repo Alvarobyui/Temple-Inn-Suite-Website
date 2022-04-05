@@ -213,7 +213,7 @@ footer a:visited {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    height: 30vh;
+    height: 37vh;
 
     padding: 10px 15px;
     color: #FFFCF2;
@@ -286,6 +286,8 @@ footer a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0px 18px 0 0;
+    margin-right: 100px;
 }
 .future-forecast .today .day {
     padding: 5px 15px;
@@ -293,7 +295,14 @@ footer a:visited {
     border-radius: 50px;
     text-align: center;
 }
-
+#current-temp {
+    margin: 12px 10px;
+    border: 1px solid #FFFCF2;
+    border-radius: 10px;
+}
+.future-forecast .today .first-card {
+    margin-right: 0px;
+}
 .future-forecast .today .temp {
     font-size: 12px;
     padding-top: 10px;

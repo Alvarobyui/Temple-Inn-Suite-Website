@@ -46,9 +46,9 @@
     }
 
     .future-forecast {
-        align-items: center;
-        justify-content: center;
-        overflow-y: hidden;
+        align-items: none;
+        justify-content: start;
+        overflow-y: scroll;
     }
 
     .future-forecast .today .temp {
@@ -86,6 +86,9 @@
     .future-forecast .today .temp {
         font-size: 15px;
         padding-top: 15px;
+    }
+    .future-forecast .today .first-card {
+        margin-right: 10px;
     }
     .future-forecast .weather-forecast {
         display: flex;
