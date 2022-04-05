@@ -94,4 +94,13 @@
         display: flex;
         font-size: 13px;
     }
+
+    /*Call to action banner*/
+    .call-cnt {
+        font-size: 1em;
+    }
+    .call-button {
+        font-size: 20px;
+    }
+    
 }

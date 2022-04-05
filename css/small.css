@@ -199,6 +199,43 @@ footer a:visited {
 }
 
 
+/*Call to action banner*/
+.call-button {
+    background: #FFFCF2;
+    padding: 12px 20px;
+    border-radius: 20px;
+    color: #252422;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+.call-cnt {
+    position: relative;
+    padding: 5vh 10vh;
+    font-size: 0.7em;
+}
+.call-heading {
+    color: #FFFCF2;
+    margin-bottom: 30px;
+}
+.call-to-action {
+    background-image: url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 70vh;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*Weather and forecast*/
 .weather-container > * {
     box-sizing: border-box;

@@ -24,4 +24,11 @@
         display: flex;
         font-size: 15px;
     }
+
+    /*Call to action banner*/
+    .call-button:hover {
+        color:#EB5E28;
+        box-shadow: 0 0 15px #EB5E28;
+        text-shadow: 0 0 15px #EB5E28;
+    }
 }
