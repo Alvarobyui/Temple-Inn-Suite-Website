@@ -104,6 +104,16 @@
     }
 
     /*Temple banner for homepage*/
-
+    .temple-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .temple-card .temple-card-cnt p{
+        font-size: 16px;
+    }
+    .temple-card .temple-card-cnt h2{
+        font-size: 25px;
+    }
     
 }

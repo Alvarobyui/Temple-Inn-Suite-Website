@@ -261,17 +261,18 @@ footer a:visited {
 /*Temple cards for homepage*/
 .temple-container {
     width: 100%;
-    max-width: 100%;
+    max-width: 1500px;
     height: 100%;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 .temple-card {
     width: 100%;
-    margin: 50px 20px;
+    margin: 50px 10px;
     border-radius: 6px;
     overflow: hidden;
     background: white;
@@ -299,11 +300,13 @@ footer a:visited {
     line-height: 1.5;
     color: #252422;
     font-weight: 500;
+    font-size: 12px;
 }
 .temple-card .temple-card-cnt h2{
     font-weight: 400;
     margin-bottom: 15px;
     margin-top: 0px;
+    font-size: 18px;
 }
 
 .temple-card .temple-card-cnt a{
