@@ -322,8 +322,6 @@ footer a:visited {
 
 
 
-
-
 /*Weather and forecast*/
 .weather-container > * {
     box-sizing: border-box;
@@ -455,4 +453,29 @@ footer a:visited {
 
 .weather-forecast .weather-forecast-item .temp {
     font-weight: 100;
+}
+
+
+/*Services-homepage*/
+.services-container {
+    width: 100%;
+    max-width: 1500px;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.services-card {
+    width: 90%;
+    margin: 0 15px 40px 13px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.services-card picture {
+    width: 100%;
+
 }
