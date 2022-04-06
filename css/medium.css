@@ -108,7 +108,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: scroll;
+        overflow: hidden;
     }
 
     .temple-card {
@@ -132,5 +132,10 @@
     .temple-card .temple-card-cnt a:hover{
         background: #EB5E28;
         color: white;
+    }
+
+
+    .temple-heading {
+        margin: 70px 15px -20px;
     }
 }
