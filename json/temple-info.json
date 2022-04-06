@@ -1,0 +1,52 @@
+{
+    "temples": [
+      {
+        "name": "Arequipa Peru Temple",
+        "address": "Calle Cusco 380 Carmen Alto Distrito De Cayma",
+        "phone": "(51) 54-640-300",
+        "temple-closure": "Thursday, 28 July 2022 - Friday, 29 July 2022",
+        "img": "https://assets.ldscdn.org/77/01/77011c98a99dd1ded7a0451507b020c71c3efed8/arequipa_peru_temple.jpeg"
+
+      },
+      {
+        "name": "Trujillo Peru Temple",
+        "address": "Av. Mansiche Km 3.5 Carretera hacia Huanchaco",
+        "phone": "(51) 44-602-130",
+        "temple-closure": "Thursday, 28 July 2022 - Friday, 29 July 2022",
+        "img": "https://assets.ldscdn.org/98/e0/98e05cb168f7720698c8dd2dcf171754e4676f4f/trujillo_peru_temple_exterior.jpg"
+
+      },
+      {
+        "name": "Lima Peru Temple",
+        "address": "Av. Javier Prado Este 6420 Urb. Santa Patricia",
+        "phone": "(51) 1-612-7200",
+        "temple-closure": "Monday, 18 April 2022 - Monday, 2 May 2022",
+        "img": "https://assets.ldscdn.org/3e/56/3e565972a9e01a71c89d580d7c63eefa4a34ba60/lima_peru_temple_lds.jpg"
+
+      },
+      {
+        "name": "Bogotá Colombia Temple",
+        "address": "Carrera 46 N°127-45 Bogotá Distrito Capital",
+        "phone": "(57) 1-625-8000",
+        "temple-closure": "Wednesday, 20 July 2022",
+        "img": "https://assets.ldscdn.org/f2/5c/f25c27feb4237f0c63d2a46fd45d69355c3b8879/bogota_colombia_temple_lds.jpeg"
+
+      },
+      {
+        "name": "Barranquilla Colombia Temple",
+        "address": "Carrera 46 via al mar pr 107",
+        "phone": "(57) 5-310-0200",
+        "temple-closure": "Monday, 18 April 2022 - Monday, 2 May 2022",
+        "img": "https://assets.ldscdn.org/60/01/600152c4cf0387c4028f66bfc0447acdef9251fe/barranquilla_columbia_temple_exterior.jpeg"
+
+      },
+      {
+        "name": "Fukuoka Japan Temple",
+        "address": "9-15 Hirao Johsui Machi Chuo-ku",
+        "phone": "(81) 92-525-8255",
+        "temple-closure": "Monday, 1 August 2022 - Wednesday, 30 November 2022",
+        "img": "https://assets.ldscdn.org/ac/04/ac04a895fc6de3b9b101b08d181162b1e16ab7af/fukuoka_japan_temple_lds.jpeg"
+
+      }
+    ]
+}
