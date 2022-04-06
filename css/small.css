@@ -599,7 +599,7 @@ form .button input{
     border-radius: 5px;
     letter-spacing: 1px;
     background: linear-gradient(135deg,#CCC5B9, #EB5E28);
-
+    cursor: pointer;
 }
 
 
