@@ -138,4 +138,10 @@
     .temple-heading {
         margin: 70px 15px -20px;
     }
+
+
+    /*Reservation form*/
+    form .room-details .category {
+        flex-direction: row;
+    }
 }

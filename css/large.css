@@ -32,10 +32,14 @@
         text-shadow: 0 0 15px #EB5E28;
     }
 
-
-
-
     /*Temple banner for homepage*/
-
     
+
+    /*Reservation form*/
+    .reserve-page {
+        display: block;}
+    form .button input:hover {
+        background: linear-gradient(135deg,#CCC5B9, #EB5E28);
+
+    }
 }

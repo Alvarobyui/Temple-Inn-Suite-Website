@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hotel_Home_Page">
+    <link rel="shortcut icon" href="favicon-hotel.ico">
     <title>Temple Inn & Suites - Home Page</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -31,7 +32,65 @@
             </label>
         </nav>
     </header>
-    <h1>Reserve</h1>
+
+    <div class="reserve-page">
+        <div class="reserve-container">
+            <div class="title">Reserve</div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone</span>
+                        <input type="tel" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Home State/Country</span>
+                        <input type="text" placeholder="Where are you from?" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Arrival</span>
+                        <input type="date" placeholder="When will you visit us" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Nights</span>
+                        <input type="number" placeholder="Enter the number of nights" required>
+                    </div>
+                </div>
+                <div class="room-details">
+                    <input type="radio" name="option" id="dot-1">
+                    <input type="radio" name="option" id="dot-2">
+                    <input type="radio" name="option" id="dot-3">
+                    <span class="room-heading">Our offers</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="normal">Normal</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="suite">Suite</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="missionary">Missional</span>
+                        </label>  
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Reserve">
+                </div>
+            </form>
+        </div>
+        
+    </div>
+
     <footer class="footer-grid">
         <img class="logo" src="img/Temple Inn Suites Logo - Original - 5000x5000.png" alt="Logo">
         <div>
