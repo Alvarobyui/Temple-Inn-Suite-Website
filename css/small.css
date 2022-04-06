@@ -263,27 +263,19 @@ footer a:visited {
     width: 100%;
     max-width: 1500px;
     height: 100%;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 .temple-card {
-    width: 100%;
-    margin: 50px 10px;
-    border-radius: 6px;
+    width: 90%;
+    margin: 0 15px 40px 13px;
+    border-radius: 20px;
     overflow: hidden;
-    background: white;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    cursor: default;
-    transition: all 400ms ease;
-}
-
-.temple-card:hover {
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
-    transform: translateY(-3%);
+    background: #CCC5B9;
+    border: 2px solid #CCC5B9;
 }
 
 .temple-card img {
@@ -320,11 +312,11 @@ footer a:visited {
     transition: all 400ms ease;
 }
 
-.temple-card .temple-card-cnt a:hover{
-    background: #EB5E28;
-    color: white;
+.temple-heading {
+    margin: 50px 15px 20px;
+    font-weight: 400;
+    color: #403D39;
 }
-
 
 
 
