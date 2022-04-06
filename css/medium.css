@@ -48,7 +48,7 @@
     .future-forecast {
         align-items: none;
         justify-content: start;
-        overflow-y: scroll;
+        overflow-y: hidden;
     }
 
     .future-forecast .today .temp {
@@ -102,5 +102,8 @@
     .call-button {
         font-size: 20px;
     }
+
+    /*Temple banner for homepage*/
+
     
 }
