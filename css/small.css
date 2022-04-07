@@ -602,4 +602,92 @@ form .button input{
     cursor: pointer;
 }
 
+/*Services page*/
+.services-container a{
+    text-decoration: none;
+    color:#252422;
+}
+.services-container a::before{
+    color: black;
+}
 
+
+.services-container {
+    width: 100%;
+    max-width: 1500px;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.services-card {
+    width: 90%;
+    margin: 0 15px 40px 13px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #CCC5B9;
+    border: 2px solid #CCC5B9;
+}
+
+.services-card img {
+    width: 100%;
+}
+.services-card figure {
+    margin: 0;
+}
+.services-card .services-cnt {
+    padding: 15px;
+    text-align: center;
+}
+.services-card .services-cnt p{
+    line-height: 1.5;
+    color: #252422;
+    font-weight: 500;
+    font-size: 12px;
+}
+.service-heading{
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+.services-card .services-cnt a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #EB5E28;
+    border: 1px solid #EB5E28;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.service-heading {
+    margin: 10px 15px 20px;
+    font-weight: 400;
+    color: #403D39;
+}
+
+.top-section {
+    background: url("https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y291cGxlJTIwaW4lMjB0aGUlMjBraXRjaGVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    font-weight: bold;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.top-section h3{
+    font-size: 1.8rem;
+    color: black;
+}
+.top-section p{
+    color: black;
+}
+#title {
+    background: linear-gradient(135deg,#CCC5B9, #EB5E28);
+    padding: 20px;
+}
