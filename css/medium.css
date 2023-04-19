@@ -7,6 +7,11 @@
         text-align: center;
     }
     
+    .top-grid {
+        position: static;
+    }
+    
+
     /*Social media icons*/
     .social-media-icons {
         height: 90px;
